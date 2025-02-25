@@ -1,0 +1,1 @@
+import{_ as s,t as o,x as t,v as a}from"./NXuRQssk.js";const n={name:"HomePage"},r={class:"container"};function c(i,e,p,l,d,x){return a(),o("div",r,e[0]||(e[0]=[t("h1",{class:"text-center"},"Hello, Nuxt.js with Bootstrap!",-1),t("p",{class:"text-center"},"This is a simple page using Nuxt.js and Bootstrap.",-1)]))}const m=s(n,[["render",c]]);export{m as default};
