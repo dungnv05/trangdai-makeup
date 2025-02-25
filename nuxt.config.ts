@@ -13,9 +13,5 @@ export default defineNuxtConfig({
         'autoprefixer': {}
       }
     }
-  },
-  target: 'static',
-  router: {
-    base: '/trangdai-makeup/'
   }
 })
