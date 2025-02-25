@@ -13,5 +13,9 @@ export default defineNuxtConfig({
         'autoprefixer': {}
       }
     }
+  },
+  target: 'static', // Xuất trang tĩnh phù hợp với GitHub Pages
+  router: {
+    base: '/trangdai-makeup/' // Cập nhật đường dẫn repo của bạn
   }
 })
