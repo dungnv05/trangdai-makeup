@@ -6,7 +6,7 @@
           <li class="nav-item">
             <nuxt-link to="/services/bride" class="nav-link">Makeup Cô Dâu</nuxt-link>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <nuxt-link to="/party" class="nav-link">Makeup Dự Tiệc</nuxt-link>
           </li>
           <li class="nav-item">
@@ -16,7 +16,7 @@
             <nuxt-link to="/personal" class="nav-link">Dạy Makeup Cá Nhân</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link to="/professional" class="nav-link">Dạy Makeup Chuyên Nghiệp</nuxt-link>
+            <nuxt-link to="/professional" class="nav-link">Dạy Makeup Chuyên Nghiệp</nuxt-link> -->
           </li>
         </ul>
       </div>
