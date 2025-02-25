@@ -5,6 +5,11 @@ export default defineNuxtConfig({
   css: [
     'bootstrap/dist/css/bootstrap.css'
   ],
+  script: [
+    {
+      src: 'bootstrap/dist/js/bootstrap.bundle.min.js'
+    }
+  ],
   build: {
     postcss: {
       plugins: {
