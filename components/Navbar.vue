@@ -4,7 +4,7 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <nuxt-link to="/services/bride" class="nav-link">Makeup Cô Dâu</nuxt-link>
+            <nuxt-link to="/bride" class="nav-link">Makeup Cô Dâu</nuxt-link>
           </li>
           <!-- <li class="nav-item">
             <nuxt-link to="/party" class="nav-link">Makeup Dự Tiệc</nuxt-link>
