@@ -1,12 +1,27 @@
 <template>
-  <div class="container">
-    <h1>Welcome to Trang Dai Makeup & Academy</h1>
-    <p>Makeup your day!</p>
+  <div>
+    <Home />
+    <About />
+    <Services />
+    <Academy />
+    <Gallery />
+    <Contact />
   </div>
 </template>
 
-<script>
-export default {
-  name: 'HomePage'
-}
+<script setup>
+import About from './about.vue';
+import Academy from './academy.vue';
+import Contact from './contact.vue';
+import Gallery from './gallery.vue';
+import Home from './home.vue';
+import Services from './services.vue';
 </script>
+
+<style>
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+</style>
