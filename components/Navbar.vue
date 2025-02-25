@@ -16,8 +16,8 @@
             <nuxt-link to="/personal" class="nav-link">Dạy Makeup Cá Nhân</nuxt-link>
           </li>
           <li class="nav-item">
-            <nuxt-link to="/professional" class="nav-link">Dạy Makeup Chuyên Nghiệp</nuxt-link> -->
-          </li>
+            <nuxt-link to="/professional" class="nav-link">Dạy Makeup Chuyên Nghiệp</nuxt-link> 
+          </li> -->
         </ul>
       </div>
     </nav>
