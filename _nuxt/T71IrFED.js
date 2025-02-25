@@ -1,0 +1,1 @@
+import{_ as o,c as s,a,o as t}from"./B6oGJY-s.js";const n={name:"BrideMakeup"},c={class:"container"};function r(d,e,p,_,i,l){return t(),s("div",c,e[0]||(e[0]=[a("h1",null,"Makeup Cô Dâu",-1),a("div",null," abcdef ",-1)]))}const f=o(n,[["render",r],["__scopeId","data-v-227cdfba"]]);export{f as default};

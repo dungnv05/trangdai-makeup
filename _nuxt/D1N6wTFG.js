@@ -1,0 +1,1 @@
+import{_ as o,c as n,a,o as t}from"./B6oGJY-s.js";const s={name:"HomePage"},r={class:"container"};function c(p,e,d,l,i,u){return t(),n("div",r,e[0]||(e[0]=[a("h1",null,"Welcome to Trang Dai Makeup & Academy",-1),a("p",null,"Makeup your day!",-1)]))}const m=o(s,[["render",c]]);export{m as default};
