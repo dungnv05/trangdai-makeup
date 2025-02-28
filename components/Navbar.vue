@@ -1,34 +1,41 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="/">Makeup</a>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <NuxtLink to="/" class="navbar-brand">Trang Dai Makeup & Academy</NuxtLink>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <nuxt-link to="/bride" class="nav-link">Makeup Cô Dâu</nuxt-link>
-          </li>
-          <!-- <li class="nav-item">
-            <nuxt-link to="/party" class="nav-link">Makeup Dự Tiệc</nuxt-link>
-          </li>
-          <li class="nav-item">
-            <nuxt-link to="/concert" class="nav-link">Đi Concert</nuxt-link>
-          </li>
-          <li class="nav-item">
-            <nuxt-link to="/personal" class="nav-link">Dạy Makeup Cá Nhân</nuxt-link>
+            <NuxtLink to="#" class="nav-link">Trang Chủ</NuxtLink>
           </li>
           <li class="nav-item">
-            <nuxt-link to="/professional" class="nav-link">Dạy Makeup Chuyên Nghiệp</nuxt-link> 
-          </li> -->
+            <NuxtLink to="#services" class="nav-link">Dịch Vụ</NuxtLink>
+          </li>
+          <li class="nav-item">
+            <NuxtLink to="#academy" class="nav-link">Học Viện</NuxtLink>
+          </li>
+          <li class="nav-item">
+            <NuxtLink to="#gallery" class="nav-link">Bộ Sưu Tập</NuxtLink>
+          </li>
+          <li class="nav-item">
+            <NuxtLink to="#contact" class="nav-link">Liên Hệ</NuxtLink>
+          </li>
         </ul>
       </div>
-    </nav>
-  </template>
-  
-  <script>
-  export default {
-    name: 'Navbar'
-  }
-  </script>
-  
-  <style scoped>
-  /* CSS tùy chỉnh */
-  </style>
+    </div>
+  </nav>
+</template>
+
+<script>
+export default {
+  name: 'Navbar'
+}
+</script>
+
+<style scoped>
+/* CSS tùy chỉnh */
+</style>
