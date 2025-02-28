@@ -16,6 +16,6 @@ export default defineNuxtConfig({
   },
   target: 'static', // Xuất trang tĩnh phù hợp với GitHub Pages
   router: {
-    base: 'https://dungnv05.github.io/trangdai-makeup/' // Cập nhật đường dẫn repo của bạn
+    base: '/trangdai-makeup/' // Cập nhật đường dẫn repo của bạn
   }
 })
